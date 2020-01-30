@@ -1,7 +1,5 @@
 package ru.geekbrains.patterns.builder;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
 import java.util.Date;
 
 public class PersonBuilder {
@@ -31,8 +29,8 @@ public class PersonBuilder {
         return this;
     }
 
-    PersonBuilder homeAdres(String homeAdres) {
-        person.setHomeAdres(homeAdres);
+    PersonBuilder homeAddress(String homeAddress) {
+        person.setHomeAddress(homeAddress);
         return this;
     }
 

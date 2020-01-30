@@ -14,7 +14,7 @@ public class Person {
     private String strahovoeSvidetelstvo;
     private String medPolis;
     private String phoneNumber;
-    private String homeAdres;
+    private String homeAddress;
     private String email;
 
     @Override
@@ -30,7 +30,7 @@ public class Person {
                 ", strahovoeSvidetelstvo='" + strahovoeSvidetelstvo + '\'' +
                 ", medPolis='" + medPolis + '\'' +
                 ", phoneNumber='" + phoneNumber + '\'' +
-                ", homeAdres='" + homeAdres + '\'' +
+                ", homeAddress='" + homeAddress + '\'' +
                 ", email='" + email + '\'' +
                 '}';
     }
@@ -118,12 +118,12 @@ public class Person {
         this.phoneNumber = phoneNumber;
     }
 
-    public String getHomeAdres() {
-        return homeAdres;
+    public String getHomeAddress() {
+        return homeAddress;
     }
 
-    public void setHomeAdres(String homeAdres) {
-        this.homeAdres = homeAdres;
+    public void setHomeAddress(String homeAddress) {
+        this.homeAddress = homeAddress;
     }
 
     public String getEmail() {
