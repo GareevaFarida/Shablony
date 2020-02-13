@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Example MVC</title>
+</head>
+<body>
+<h1>Hello, Students!</h1>
+
+<table border="1" th:unless="${students.size() == 0}">
+    <tr>
+        <th>Id</th>
+        <th>First name</th>
+        <th>Last name name</th>
+    </tr>
+
+    <tr th:each="student : ${students}">
+
+        <td th:text="${student.id}">1</td>
+        <td th:text="${student.firstname}">Иван</td>
+        <td th:text="${student.lastname}">Иванов</td>
+
+    </tr>
+
+</table>
+</body>
+</html>
