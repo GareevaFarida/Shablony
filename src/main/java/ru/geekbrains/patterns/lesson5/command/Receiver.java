@@ -3,7 +3,7 @@ package ru.geekbrains.patterns.lesson5.command;
 import java.util.Stack;
 
 public class Receiver {
-    Stack<Invoker> list = new Stack<>();
+    Stack<Invoker> list = new Stack<Invoker>();
 
     public void attach(Invoker invoker) {
         list.push(invoker);

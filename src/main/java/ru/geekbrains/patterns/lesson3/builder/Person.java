@@ -1,4 +1,4 @@
-package ru.geekbrains.patterns.builder;
+package ru.geekbrains.patterns.lesson3.builder;
 
 import java.util.Date;
 

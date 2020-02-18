@@ -1,4 +1,4 @@
-package ru.geekbrains.patterns.singleton;
+package ru.geekbrains.patterns.lesson3.singleton;
 
 public class Singleton {
     private static volatile Singleton INSTANCE;
